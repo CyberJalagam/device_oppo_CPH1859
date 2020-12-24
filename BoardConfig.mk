@@ -135,3 +135,6 @@ BOARD_VNDK_VERSION := current
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor_prop.mk
 TARGET_COPY_OUT_PRODUCT := system/product
+
+# Releasetools
+TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
