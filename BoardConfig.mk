@@ -65,16 +65,17 @@ BUILD_BROKEN_DUP_RULES := true
 
 
 # Kernel
-BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 androidboot.configfs=true androidboot.selinux=permissive
-BOARD_KERNEL_BASE := 0x40078000
-BOARD_KERNEL_PAGESIZE := 2048
-BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x14f88000 --second_offset 0x00e88000 --tags_offset 0x13f88000
-BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
+#BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 androidboot.configfs=true androidboot.selinux=permissive
+#BOARD_KERNEL_BASE := 0x40078000
+#BOARD_KERNEL_PAGESIZE := 2048
+#BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x14f88000 --second_offset 0x00e88000 --tags_offset 0x13f88000
+#BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
 #TARGET_KERNEL_SOURCE := kernel/oppo/mt6771
 #TARGET_KERNEL_CONFIG := oppo6771_17065_defconfig
 #TARGET_KERNEL_CLANG_COMPILE := true
 #TARGET_KERNEL_CLANG_VERSION := r353983d
+TARGET_PREBUILT_BOOTIMAGE := $(DEVICE PATH)/prebuilt/boot.img
 TARGET_BOARD_SUFFIX := _64
 TARGET_NO_KERNEL := false
 
