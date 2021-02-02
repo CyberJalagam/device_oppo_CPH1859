@@ -54,4 +54,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="CPH1859" \
     PRIVATE_BUILD_DESC="full_oppo6771_17065-user 9 PPR1.180610.011 eng.root.20201016.232423 release-keys"
 
-BUILD_FINGERPRINT := "google/sunfish/sunfish:S/SPP1.210122.020.A3/7145137:user/release-keys"
+BUILD_FINGERPRINT := "google/sunfish/sunfish:11/RQ1A.210205.004/7038034:user/release-keys"
