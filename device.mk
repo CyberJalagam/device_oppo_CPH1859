@@ -130,11 +130,7 @@ PRODUCT_PACKAGES += \
     wpa_supplicant \
     wpa_supplicant.conf
 
-# Tethering
-PRODUCT_PACKAGES += \
-    TetheringConfigOverlay
-
-
+    
 # KPOC
 PRODUCT_PACKAGES += \
     libsuspend
