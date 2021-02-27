@@ -134,7 +134,7 @@ TARGET_IGNORES_FTP_PPTP_CONNTRACK_FAILURE := true
 # Vndk
 BOARD_VNDK_VERSION := current
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor_prop.mk
+#TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor_prop.mk
 TARGET_COPY_OUT_PRODUCT := system/product
 
 # Releasetools
