@@ -1,4 +1,4 @@
-#
+]#
 # Copyright 2020 The Android Open Source Project
 # Copyright (C) 2020 The LineageOS Project
 #
@@ -155,6 +155,9 @@ PRODUCT_COPY_FILES += \
 # Privapp-permissions whitelist for PhhTrebleApp
 PRODUCT_COPY_FILES += \
        $(LOCAL_PATH)/permissions/privapp-permissions-me.phh.treble.app.xml:system/etc/permissions/privapp-permissions-me.phh.treble.app.xml
+
+# RealmeParts
+$(call inherit-product, packages/apps/RealmeParts/parts.mk)
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/oppo/CPH1859/CPH1859-vendor.mk)
