@@ -135,7 +135,6 @@ TARGET_LD_SHIM_LIBS := /system/lib/libshowlogo.so|libshim_showlogo.so
 
 # Vndk
 BOARD_VNDK_VERSION := current
-PRODUCT_EXTRA_VNDK_VERSIONS := 28
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 BUILD_WITHOUT_VENDOR := true
 TARGET_COPY_OUT_PRODUCT := system/product
