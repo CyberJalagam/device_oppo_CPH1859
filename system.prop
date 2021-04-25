@@ -108,5 +108,3 @@ debug.sf.latch_unsignaled=1
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
 
-# Shapeshift properties
-ro.ssos.cpu="Helio P60"

@@ -1,4 +1,4 @@
-]#
+#
 # Copyright 2020 The Android Open Source Project
 # Copyright (C) 2020 The LineageOS Project
 #
@@ -144,9 +144,6 @@ PRODUCT_PACKAGES += \
 # ImsInit hack
 PRODUCT_PACKAGES += \
     ImsInit
-
-PRODUCT_PACKAGES += \
-    TrebleApp
 
 PRODUCT_COPY_FILES += \
        $(LOCAL_PATH)/permissions/interfaces.xml:system/etc/permissions/interfaces.xml
