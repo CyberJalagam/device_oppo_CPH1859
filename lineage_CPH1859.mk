@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common LOS stuff.
-$(call inherit-product, vendor/rr/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from oppo CPH1861
 $(call inherit-product, device/oppo/CPH1859/device.mk)
@@ -34,11 +34,9 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 2160
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# RR
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
-
-PRODUCT_NAME := rr_CPH1859
+PRODUCT_NAME := lineage_CPH1859
 PRODUCT_DEVICE := CPH1859
 PRODUCT_MANUFACTURER := OPPO
 PRODUCT_BRAND := OPPO
